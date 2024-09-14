@@ -2,8 +2,17 @@
 
 Запуск контейнера:
 ```sh
-docker build -t pytorch-cuda:latest .
 docker compose up -d
+```
+или
+```sh
+docker build -t kekwak/docker-lab:latest .
+docker compose up -d
+```
+
+Просмотр логов:
+```sh
+docker compose logs -f
 ```
 
 Остановка контейнера:
