@@ -4,10 +4,10 @@
 ```sh
 docker compose up -d
 ```
-или
+
+## Сборка контейнера:
 ```sh
 docker build -t kekwak/docker-lab:latest .
-docker compose up -d
 ```
 
 ## Просмотр логов:
