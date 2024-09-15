@@ -15,6 +15,11 @@ docker compose up -d
 docker compose logs -f
 ```
 
+Доступ в глобальной сети:
+```sh
+ngrok http 8888
+```
+
 Остановка контейнера:
 ```sh
 docker compose down
