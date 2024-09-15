@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
     python3.11-dev \
     python3-pip \
     nodejs \
+    npm \
     sudo \
     nano \
     vim \
