@@ -1,13 +1,13 @@
 # Jupyter Lab GPU in Docker
 
-## Запуск контейнера:
-```sh
-docker compose up -d
-```
-
 ## Сборка контейнера:
 ```sh
 docker build -t kekwak/docker-lab:latest .
+```
+
+## Запуск контейнера:
+```sh
+docker compose up -d
 ```
 
 ## Просмотр логов:
