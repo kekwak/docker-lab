@@ -34,3 +34,6 @@ RUN rm /NGC-DL-CONTAINER-LICENSE /cuda-keyring_1.0-1_all.deb /tmp/requirements.t
 EXPOSE 8888
 
 WORKDIR /home
+
+# "timeout", "8h", 
+CMD ["jupyter", "lab", "--no-browser", "--ip=0.0.0.0", "--port=8888", "--allow-root"]

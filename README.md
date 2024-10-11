@@ -1,10 +1,5 @@
 # Jupyter Lab GPU in Docker
 
-## Сборка контейнера:
-```sh
-docker build -t kekwak/docker-lab:latest .
-```
-
 ## Запуск контейнера:
 ```sh
 docker compose up -d
@@ -23,4 +18,14 @@ ngrok http 8888
 ## Остановка контейнера:
 ```sh
 docker compose down
+```
+
+## Сборка контейнера:
+```sh
+docker build -t kekwak/docker-lab:latest .
+```
+
+## Запуск образа:
+```sh
+docker run --gpus all -p 8888:8888 docker-lab-user0:latest
 ```
