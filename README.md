@@ -27,5 +27,5 @@ docker build -t kekwak/docker-lab:latest .
 
 ## Запуск образа:
 ```sh
-docker run --gpus all -p 8888:8888 docker-lab-user0:latest
+docker run --gpus all -p 8888:8888 kekwak/docker-lab:latest
 ```
